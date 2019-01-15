@@ -85,7 +85,7 @@ do_install()
     echo "[do_install] Entering install package dir: $i"
     pushd ${1}/build
     make install DESTDIR=%{buildroot}
-   
+
     %define local_install_dir  $(pwd)
     make install DESTDIR=%{local_install_dir}/installed
     find installed -type f  | sed 's/installed//' >  install_manifest.txt
@@ -116,7 +116,7 @@ do_install ros
 %manifest %{name}.manifest
 %defattr(-,root,root)
 
-%package -n     %{name}make 
+%package -n     %{name}make
 Summary:        ROS build tool
 Group:          Development/Libraries
 %description -n %{name}make
@@ -198,7 +198,7 @@ rosbuild contains scripts for managing the CMake-based build system for ROS.
 %defattr(-,root,root)
 
 %package -n %{name}lang
-Summary:        A common package that all ROS client libraries depend on 
+Summary:        A common package that all ROS client libraries depend on
 Group:          Development/Libraries
 %description -n %{name}lang
 roslang is a common package that all ROS client libraries depend on. This is mainly used to find client libraries (via 'rospack depends-on1 roslang').
