@@ -1,3 +1,4 @@
+%define ros_distro kinetic
 Name:           ros-kinetic-ros
 Version:        1.14.1
 Release:        0%{?dist}
