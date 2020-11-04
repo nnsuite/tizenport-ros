@@ -1,0 +1,13 @@
+Source: ros-melodic-rosunit
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python-setuptools, ros-melodic-catkin (>= 0.5.78)
+Homepage: http://wiki.ros.org/rosunit
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rosunit
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-rospkg, ros-melodic-roslib
+Description: Unit-testing package for ROS.
+ This is a lower-level library for rostest and handles unit tests, whereas rostest handles integration tests.
