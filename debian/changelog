@@ -1,0 +1,313 @@
+ros-melodic-rosbash (1.14.9-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 20 Apr 2020 07:00:00 -0000
+
+ros-melodic-rosbash (1.14.8-1bionic) bionic; urgency=high
+
+  * update style to pass flake8 (#240 <https://github.com/ros/ros/issues/240>)
+  * Replace $1 and $2 with $pkg_name and $file_name (#239 <https://github.com/ros/ros/issues/239>)
+  * add roscp. (#237 <https://github.com/ros/ros/issues/237>)
+  * Bump CMake version to avoid CMP0048 warning (#234 <https://github.com/ros/ros/issues/234>)
+  * fix find -perm /mode usage for FreeBSD (#232 <https://github.com/ros/ros/issues/232>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 11 Feb 2020 08:00:00 -0000
+
+ros-melodic-rosbash (1.14.7-1bionic) bionic; urgency=high
+
+  * zsh launch args completion (#217 <https://github.com/ros/ros/issues/217>)
+  * use _rosrun_ prefix for temporary variable (#228 <https://github.com/ros/ros/issues/228>)
+  * restore IFS after changing it in rosbash and rosrun (#227 <https://github.com/ros/ros/issues/227>)
+  * [revent filename glob expansion in _msg_opts in rosbash (#218 <https://github.com/ros/ros/issues/218>)
+  * correct name of the findpath script (#27 <https://github.com/ros/ros/issues/27>) (#213 <https://github.com/ros/ros/issues/213>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 03 Oct 2019 07:00:00 -0000
+
+ros-melodic-rosbash (1.14.6-1bionic) bionic; urgency=high
+
+  * add roscd, rosls support for Windows (#210 <https://github.com/ros/ros/issues/210>)
+  * exclude files when completing roslaunch args (#211 <https://github.com/ros/ros/issues/211>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 18 Mar 2019 07:00:00 -0000
+
+ros-melodic-rosbash (1.14.5-1bionic) bionic; urgency=high
+
+  * add rosrun.bat (#208 <https://github.com/ros/ros/issues/208>)
+  * add verbose output to rosrun if catkin_find fails (#182 <https://github.com/ros/ros/issues/182>)
+  * add missing rospack dependency (#189 <https://github.com/ros/ros/issues/189>)
+  * fix rosfish (#172 <https://github.com/ros/ros/issues/172>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 04 Mar 2019 08:00:00 -0000
+
+ros-melodic-rosbash (1.14.4-1bionic) bionic; urgency=high
+
+  * rosrun: array is now properly expanded in debug-echo (#176 <https://github.com/ros/ros/issues/176>)
+  * rosbash: replaced ... with $(...) (#177 <https://github.com/ros/ros/issues/177>)
+  * rosrun: replaced ... with $(...) (#175 <https://github.com/ros/ros/issues/175>)
+  * rosfish: fix syntax error (#171 <https://github.com/ros/ros/issues/171>)
+  * fix zsh tab completion for symlinks (#169 <https://github.com/ros/ros/issues/169>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 01 May 2018 07:00:00 -0000
+
+ros-melodic-rosbash (1.14.3-1bionic) bionic; urgency=high
+
+  * do not remove paths containing ./ or ../ from completion (#162 <https://github.com/ros/ros/issues/162>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 30 Jan 2018 08:00:00 -0000
+
+ros-melodic-rosbash (1.14.2-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 26 Oct 2017 07:00:00 -0000
+
+ros-melodic-rosbash (1.14.1-1bionic) bionic; urgency=high
+
+  * add options in completion for roslaunch to roszsh (#147 <https://github.com/ros/ros/issues/147>)
+  * allow arguments in EDITOR env in zsh rosed (#144 <https://github.com/ros/ros/pull/144>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 27 Jul 2017 07:00:00 -0000
+
+ros-melodic-rosbash (1.14.0-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 22 Feb 2017 08:00:00 -0000
+
+ros-melodic-rosbash (1.13.6-1bionic) bionic; urgency=high
+
+  * add options in completion for roslaunch to roszsh (#147 <https://github.com/ros/ros/issues/147>)
+  * allow arguments in EDITOR env in zsh rosed (#144 <https://github.com/ros/ros/pull/144>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 31 Oct 2017 07:00:00 -0000
+
+ros-melodic-rosbash (1.13.5-1bionic) bionic; urgency=high
+
+  * add completion for "rosmsg info" (#138 <https://github.com/ros/ros/pull/138>)
+  * add "rostopic pub" completion for message type (#132 <https://github.com/ros/ros/pull/132>)
+  * fix "rostopic pub" completion when options are provided (#131 <https://github.com/ros/ros/pull/131>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 14 Feb 2017 08:00:00 -0000
+
+ros-melodic-rosbash (1.13.4-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 19 Sep 2016 07:00:00 -0000
+
+ros-melodic-rosbash (1.13.3-1bionic) bionic; urgency=high
+
+  * fix spelling of 'rosed' in usage (#118 <https://github.com/ros/ros/pull/118>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 16 Sep 2016 07:00:00 -0000
+
+ros-melodic-rosbash (1.13.2-1bionic) bionic; urgency=high
+
+  * add missing verbs to rosservice completion (#117 <https://github.com/ros/ros/pull/117>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 02 Sep 2016 07:00:00 -0000
+
+ros-melodic-rosbash (1.13.1-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 13 Mar 2016 08:00:00 -0000
+
+ros-melodic-rosbash (1.13.0-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 10 Mar 2016 08:00:00 -0000
+
+ros-melodic-rosbash (1.12.6-1bionic) bionic; urgency=high
+
+  * add roscat to display file contents (#99 <https://github.com/ros/ros/pull/99>)
+  * roszsh: Ignore hidden files and directory in completion (#100 <https://github.com/ros/ros/pull/100>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 10 Mar 2016 08:00:00 -0000
+
+ros-melodic-rosbash (1.12.5-1bionic) bionic; urgency=high
+
+  * rosrun: allow spaces in command names and search paths (#94 <https://github.com/ros/ros/pull/94>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 13 Oct 2015 07:00:00 -0000
+
+ros-melodic-rosbash (1.12.4-1bionic) bionic; urgency=high
+
+  * fix zsh rosservice completion (#92 <https://github.com/ros/ros/pull/92>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 12 Oct 2015 07:00:00 -0000
+
+ros-melodic-rosbash (1.12.3-1bionic) bionic; urgency=high
+
+  * fix roslaunch completion if path contains white spaces (ros/ros_comm#658 <https://github.com/ros/ros_comm/issues/658>)
+  * add rosconsole tab completion for bash (#86 <https://github.com/ros/ros/pull/86>)
+  * use --first-only option when calling catkin_find (#83 <https://github.com/ros/ros/issues/83>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sat, 19 Sep 2015 07:00:00 -0000
+
+ros-melodic-rosbash (1.12.2-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 27 Apr 2015 07:00:00 -0000
+
+ros-melodic-rosbash (1.12.1-1bionic) bionic; urgency=high
+
+  * add support for fish shell (#77 <https://github.com/ros/ros/pull/77>)
+  * enable roslaunch args completion in rosbash
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 16 Apr 2015 07:00:00 -0000
+
+ros-melodic-rosbash (1.12.0-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 26 Dec 2014 08:00:00 -0000
+
+ros-melodic-rosbash (1.11.6-1bionic) bionic; urgency=high
+
+  * match behaviour of 'roscd' in zsh with bash (#73 <https://github.com/ros/ros/pull/73>)
+  * improve rosbag zsh tab completion for bag files (#70 <https://github.com/ros/ros/issues/70>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 22 Dec 2014 08:00:00 -0000
+
+ros-melodic-rosbash (1.11.5-1bionic) bionic; urgency=high
+
+  * fix zsh autocompletion for published topics, msg-type and YAML (#64 <https://github.com/ros/ros/issues/64>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 18 Aug 2014 07:00:00 -0000
+
+ros-melodic-rosbash (1.11.4-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 23 Jul 2014 07:00:00 -0000
+
+ros-melodic-rosbash (1.11.3-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 18 Jul 2014 07:00:00 -0000
+
+ros-melodic-rosbash (1.11.2-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 16 Jun 2014 07:00:00 -0000
+
+ros-melodic-rosbash (1.11.1-1bionic) bionic; urgency=high
+
+  * add rosrun --prefix, update completion (#52 <https://github.com/ros/ros/issues/52>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 07 May 2014 07:00:00 -0000
+
+ros-melodic-rosbash (1.11.0-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 31 Jan 2014 08:00:00 -0000
+
+ros-melodic-rosbash (1.10.9-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 07 Jan 2014 08:00:00 -0000
+
+ros-melodic-rosbash (1.10.8-1bionic) bionic; urgency=high
+
+  * fix check for permissions of executables (regression from #37 <https://github.com/ros/ros/issues/37> in 1.10.7)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 15 Oct 2013 07:00:00 -0000
+
+ros-melodic-rosbash (1.10.7-1bionic) bionic; urgency=high
+
+  * use platform dependent argument for 'find -perm' (#33 <https://github.com/ros/ros/issues/33>)
+  * compatibility of env hooks with old workspace setup files (#36 <https://github.com/ros/ros/issues/36>)
+  * make rosawesome more awesome
+  * fix return code for rospd for invalid package names (#30 <https://github.com/ros/ros/issues/30>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 04 Oct 2013 07:00:00 -0000
+
+ros-melodic-rosbash (1.10.6-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 22 Aug 2013 07:00:00 -0000
+
+ros-melodic-rosbash (1.10.5-1bionic) bionic; urgency=high
+
+  * make rosunit relocatable (ros/catkin#490 <https://github.com/ros/catkin/issues/490>)
+  * fix home expansion in completion on OS X (#27 <https://github.com/ros/ros/issues/27>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 21 Aug 2013 07:00:00 -0000
+
+ros-melodic-rosbash (1.10.4-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 05 Jul 2013 07:00:00 -0000
+
+ros-melodic-rosbash (1.10.3-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 03 Jul 2013 07:00:00 -0000
+
+ros-melodic-rosbash (1.10.2-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 18 Jun 2013 07:00:00 -0000
+
+ros-melodic-rosbash (1.10.1-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 06 Jun 2013 07:00:00 -0000
+
+ros-melodic-rosbash (1.10.0-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 22 Mar 2013 16:23:00 -0000
+
+ros-melodic-rosbash (1.9.44-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 13 Mar 2013 07:00:00 -0000
+
+ros-melodic-rosbash (1.9.43-1bionic) bionic; urgency=high
+
+  * fix handling spaces in folder names (ros/catkin#375 <https://github.com/ros/catkin/issues/375>)
+  * modified 'roscd' to switch to latest sourced catkin space when invoked without arguments (ros/ros_comm#123 <https://github.com/ros/ros_comm/issues/123>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 08 Mar 2013 08:00:00 -0000
+
+ros-melodic-rosbash (1.9.42-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 25 Jan 2013 08:00:00 -0000
+
+ros-melodic-rosbash (1.9.41-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 24 Jan 2013 08:00:00 -0000
+
+ros-melodic-rosbash (1.9.40-1bionic) bionic; urgency=high
+
+  * add 'rosnode cleanup' to autocompletion
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 13 Jan 2013 08:00:00 -0000
+
+ros-melodic-rosbash (1.9.39-1bionic) bionic; urgency=high
+
+  * first public release for Groovy
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 30 Dec 2012 08:00:00 -0000
+
+
