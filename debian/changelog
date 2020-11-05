@@ -1,0 +1,302 @@
+ros-melodic-roslib (1.14.9-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 20 Apr 2020 07:00:00 -0000
+
+ros-melodic-roslib (1.14.8-1bionic) bionic; urgency=high
+
+  * fix various issues discovered by flake8 (#241 <https://github.com/ros/ros/issues/241>)
+  * update style to pass flake8 (#240 <https://github.com/ros/ros/issues/240>)
+  * restrict boost dependencies to components used (#236 <https://github.com/ros/ros/issues/236>)
+  * Use setuptools instead of distutils (#235 <https://github.com/ros/ros/issues/235>)
+  * Bump CMake version to avoid CMP0048 warning (#234 <https://github.com/ros/ros/issues/234>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 11 Feb 2020 08:00:00 -0000
+
+ros-melodic-roslib (1.14.7-1bionic) bionic; urgency=high
+
+  * use condition attributes to specify Python 2 and 3 dependencies (#226 <https://github.com/ros/ros/issues/226>)
+  * symlink search for roslib (#225 <https://github.com/ros/ros/issues/225>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 03 Oct 2019 07:00:00 -0000
+
+ros-melodic-roslib (1.14.6-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 18 Mar 2019 07:00:00 -0000
+
+ros-melodic-roslib (1.14.5-1bionic) bionic; urgency=high
+
+  * disable test with invalid dependency (#202 <https://github.com/ros/ros/issues/202>)
+  * special handle Python script without extension on Windows (#197 <https://github.com/ros/ros/issues/197>)
+  * use _MSC_VER for ROS_FORCE_INLINE (#194 <https://github.com/ros/ros/issues/194>)
+  * chmod -x on Python modules (#183 <https://github.com/ros/ros/issues/183>)
+  * fix build issue on Windows (#186 <https://github.com/ros/ros/issues/186>)
+  * add missing dependencies (#181 <https://github.com/ros/ros/issues/181>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 04 Mar 2019 08:00:00 -0000
+
+ros-melodic-roslib (1.14.4-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 01 May 2018 07:00:00 -0000
+
+ros-melodic-roslib (1.14.3-1bionic) bionic; urgency=high
+
+  * replace env hooks with a dependency on ros_environment (#166 <https://github.com/ros/ros/issues/166>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 30 Jan 2018 08:00:00 -0000
+
+ros-melodic-roslib (1.14.2-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 26 Oct 2017 07:00:00 -0000
+
+ros-melodic-roslib (1.14.1-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 27 Jul 2017 07:00:00 -0000
+
+ros-melodic-roslib (1.14.0-1bionic) bionic; urgency=high
+
+  * update ROS_DISTRO to lunar
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 22 Feb 2017 08:00:00 -0000
+
+ros-melodic-roslib (1.13.6-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 31 Oct 2017 07:00:00 -0000
+
+ros-melodic-roslib (1.13.5-1bionic) bionic; urgency=high
+
+  * fix missing export depends (#128 <https://github.com/ros/ros/issues/128>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 14 Feb 2017 08:00:00 -0000
+
+ros-melodic-roslib (1.13.4-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 19 Sep 2016 07:00:00 -0000
+
+ros-melodic-roslib (1.13.3-1bionic) bionic; urgency=high
+
+  * allow expected ROS_DISTRO value to be overridden at compile time (#122 <https://github.com/ros/ros/pull/122>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 16 Sep 2016 07:00:00 -0000
+
+ros-melodic-roslib (1.13.2-1bionic) bionic; urgency=high
+
+  * avoid putting the rosbuild stacks dir on RPP if it doesn't exist (#111 <https://github.com/ros/ros/pull/111>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 02 Sep 2016 07:00:00 -0000
+
+ros-melodic-roslib (1.13.1-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 13 Mar 2016 08:00:00 -0000
+
+ros-melodic-roslib (1.13.0-1bionic) bionic; urgency=high
+
+  * update ROS_DISTRO to kinetic
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 10 Mar 2016 08:00:00 -0000
+
+ros-melodic-roslib (1.12.6-1bionic) bionic; urgency=high
+
+  * expose an API (ros::package::getPlugins) which can map multiple export values to one package name (#103 <https://github.com/ros/ros/issues/103>)
+  * deprecate API returning incomplete information (#103 <https://github.com/ros/ros/issues/103>)
+  * allow caching of rospack results (#97 <https://github.com/ros/ros/issues/97>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 10 Mar 2016 08:00:00 -0000
+
+ros-melodic-roslib (1.12.5-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 13 Oct 2015 07:00:00 -0000
+
+ros-melodic-roslib (1.12.4-1bionic) bionic; urgency=high
+
+  * improve performance by caching the package mapping in the rospack instance (#95 <https://github.com/ros/ros/pull/95>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 12 Oct 2015 07:00:00 -0000
+
+ros-melodic-roslib (1.12.3-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sat, 19 Sep 2015 07:00:00 -0000
+
+ros-melodic-roslib (1.12.2-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 27 Apr 2015 07:00:00 -0000
+
+ros-melodic-roslib (1.12.1-1bionic) bionic; urgency=high
+
+  * remove usage of CATKIN_TEST_RESULTS_DIR environment variable (#80 <https://github.com/ros/ros/pull/80>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 16 Apr 2015 07:00:00 -0000
+
+ros-melodic-roslib (1.12.0-1bionic) bionic; urgency=high
+
+  * update ROS_DISTRO to jade
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 26 Dec 2014 08:00:00 -0000
+
+ros-melodic-roslib (1.11.6-1bionic) bionic; urgency=high
+
+  * consider std_msgs/Header to be a valid header in rosbuild-based messages (#67 <https://github.com/ros/ros/pull/67>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 22 Dec 2014 08:00:00 -0000
+
+ros-melodic-roslib (1.11.5-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 18 Aug 2014 07:00:00 -0000
+
+ros-melodic-roslib (1.11.4-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 23 Jul 2014 07:00:00 -0000
+
+ros-melodic-roslib (1.11.3-1bionic) bionic; urgency=high
+
+  * remove linking against "rt" library on Android (#57 <https://github.com/ros/ros/issues/57>)
+  * disable delayed expansion in Windows environment hook (#60 <https://github.com/ros/ros/issues/60>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 18 Jul 2014 07:00:00 -0000
+
+ros-melodic-roslib (1.11.2-1bionic) bionic; urgency=high
+
+  * use PYTHON_EXECUTABLE in environment hooks (#55 <https://github.com/ros/ros/issues/55>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 16 Jun 2014 07:00:00 -0000
+
+ros-melodic-roslib (1.11.1-1bionic) bionic; urgency=high
+
+  * add optional argument force_recrawl to getPlugins() function
+  * use catkin_install_python() to install Python scripts (#46 <https://github.com/ros/ros/issues/46>)
+  * python 3 compatibility
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 07 May 2014 07:00:00 -0000
+
+ros-melodic-roslib (1.11.0-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 31 Jan 2014 08:00:00 -0000
+
+ros-melodic-roslib (1.10.9-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 07 Jan 2014 08:00:00 -0000
+
+ros-melodic-roslib (1.10.8-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 15 Oct 2013 07:00:00 -0000
+
+ros-melodic-roslib (1.10.7-1bionic) bionic; urgency=high
+
+  * compatibility of env hooks with old workspace setup files (#36 <https://github.com/ros/ros/issues/36>)
+  * allow python files to pass executable filter in Windows
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 04 Oct 2013 07:00:00 -0000
+
+ros-melodic-roslib (1.10.6-1bionic) bionic; urgency=high
+
+  * fix regression of #29 <https://github.com/ros/ros/issues/29> introduced in 1.10.5
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 22 Aug 2013 07:00:00 -0000
+
+ros-melodic-roslib (1.10.5-1bionic) bionic; urgency=high
+
+  * make roslib relocatable (ros/catkin#490 <https://github.com/ros/catkin/issues/490>)
+  * improve performance of dry message generation
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 21 Aug 2013 07:00:00 -0000
+
+ros-melodic-roslib (1.10.4-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 05 Jul 2013 07:00:00 -0000
+
+ros-melodic-roslib (1.10.3-1bionic) bionic; urgency=high
+
+  * check for CATKIN_ENABLE_TESTING to enable configure without tests
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 03 Jul 2013 07:00:00 -0000
+
+ros-melodic-roslib (1.10.2-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 18 Jun 2013 07:00:00 -0000
+
+ros-melodic-roslib (1.10.1-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 06 Jun 2013 07:00:00 -0000
+
+ros-melodic-roslib (1.10.0-1bionic) bionic; urgency=high
+
+  * update ROS distro name to hydro (#10 <https://github.com/ros/ros/issues/10>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 22 Mar 2013 16:23:00 -0000
+
+ros-melodic-roslib (1.9.44-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 13 Mar 2013 07:00:00 -0000
+
+ros-melodic-roslib (1.9.43-1bionic) bionic; urgency=high
+
+  * improve speed of message generation in dry packages (ros/ros_comm#183 <https://github.com/ros/ros_comm/issues/183>)
+  * fix handling spaces in folder names (ros/catkin#375 <https://github.com/ros/catkin/issues/375>)
+  * make Python scripts executable from launch files on Windows (ros/ros_comm#54 <https://github.com/ros/ros_comm/issues/54>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 08 Mar 2013 08:00:00 -0000
+
+ros-melodic-roslib (1.9.42-1bionic) bionic; urgency=high
+
+  * fix location of (obsolete) environment variable ROS_ETC_DIR
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 25 Jan 2013 08:00:00 -0000
+
+ros-melodic-roslib (1.9.41-1bionic) bionic; urgency=high
+
+  * modified ROS_ROOT in devel space and moved all rosbuild files to a location which fits how the files are relatively looked up
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 24 Jan 2013 08:00:00 -0000
+
+ros-melodic-roslib (1.9.40-1bionic) bionic; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 13 Jan 2013 08:00:00 -0000
+
+ros-melodic-roslib (1.9.39-1bionic) bionic; urgency=high
+
+  * first public release for Groovy
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 30 Dec 2012 08:00:00 -0000
+
+
