@@ -1,0 +1,12 @@
+Source: ros-melodic-rosbuild
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), pkg-config, ros-melodic-catkin (>= 0.5.78)
+Homepage: http://ros.org/wiki/rosbuild
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rosbuild
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-catkin, ros-melodic-message-generation, ros-melodic-message-runtime
+Description: rosbuild contains scripts for managing the CMake-based build system for ROS.
